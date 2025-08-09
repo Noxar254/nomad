@@ -1251,6 +1251,11 @@ body {
         font-size: 0.95rem;
     }
 
+    .upcoming-tours .container {
+        padding: 0;
+        max-width: 100%;
+    }
+
     .tours-grid {
         grid-template-columns: 1fr;
         gap: 0;
@@ -1657,6 +1662,11 @@ body {
         min-width: 120px;
         padding: 10px 18px;
         font-size: 0.9rem;
+    }
+
+    .upcoming-tours .container {
+        padding: 0;
+        max-width: 100%;
     }
 
     .tours-grid {
