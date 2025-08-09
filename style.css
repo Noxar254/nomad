@@ -2270,6 +2270,17 @@ body {
         gap: 25px;
     }
     
+    .quick-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .quick-links ul li {
+        margin-bottom: 0;
+    }
+
     .newsletter-form {
         flex-direction: column;
         gap: 8px;
@@ -2300,9 +2311,14 @@ body {
     
     .quick-links ul {
         display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
+        flex-direction: column;
+        gap: 8px;
         justify-content: center;
+        align-items: center;
+    }
+    
+    .quick-links ul li {
+        margin-bottom: 0;
     }
     
     .social-icons {
