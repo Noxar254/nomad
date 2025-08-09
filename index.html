@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad Crew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Nomad Crew Logo" class="logo-img">
+                <span class="logo-text">Nomad Crew Adventures</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#adventures" class="nav-link">Adventures</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#join" class="nav-link">Join the Crew</a></li>
+                <li><a href="#blog" class="nav-link">Travel Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Nomad Crew Adventures</h1>
+            <p class="hero-tagline">Hikes • Road Trips • Safaris • And More...</p>
+            <div class="hero-buttons">
+                <a href="#adventures" class="btn-primary">Upcoming Events</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="adventures" class="section upcoming-tours">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <p class="section-subtitle">Join our next adventures and create unforgettable memories</p>
+            
+            <div class="tours-grid">
+                <!-- Tour Card 1 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="images/massai mara.jpg" alt="Masai Mara Safari">
+                        <div class="tour-date">
+                            <span class="month">Mar</span>
+                            <span class="day">15</span>
+                        </div>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">Masai Mara Safari Adventure</h3>
+                        <p class="tour-description">Experience the great migration and witness Africa's Big Five in their natural habitat. A 5-day journey through Kenya's most famous national reserve.</p>
+                        <div class="tour-details">
+                            <span class="duration">5 Days</span>
+                            <span class="price">KSH 120,000</span>
+                        </div>
+                        <div class="tour-buttons">
+                            <button class="btn-view">View Details</button>
+                            <button class="btn-register">Register</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour Card 2 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="images/massai mara.jpg" alt="Kilimanjaro Trek">
+                        <div class="tour-date">
+                            <span class="month">Apr</span>
+                            <span class="day">08</span>
+                        </div>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">Mount Kilimanjaro Trek</h3>
+                        <p class="tour-description">Conquer Africa's highest peak on this challenging 7-day trek. Experience diverse ecosystems from rainforest to alpine desert.</p>
+                        <div class="tour-details">
+                            <span class="duration">7 Days</span>
+                            <span class="price">KSH 210,000</span>
+                        </div>
+                        <div class="tour-buttons">
+                            <button class="btn-view">View Details</button>
+                            <button class="btn-register">Register</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour Card 3 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="images/massai mara.jpg" alt="Coastal Road Trip">
+                        <div class="tour-date">
+                            <span class="month">Apr</span>
+                            <span class="day">22</span>
+                        </div>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">Coastal Road Trip Experience</h3>
+                        <p class="tour-description">Drive along the stunning East African coastline. Visit pristine beaches, historic towns, and enjoy fresh seafood in this 4-day adventure.</p>
+                        <div class="tour-details">
+                            <span class="duration">4 Days</span>
+                            <span class="price">KSH 85,000</span>
+                        </div>
+                        <div class="tour-buttons">
+                            <button class="btn-view">View Details</button>
+                            <button class="btn-register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section about-us">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">About Us</h2>
+                    <p class="about-description">
+                        We specialize in transformative adventures across Kenya and East Africa. From Masai Mara safaris to Great Rift Valley road trips and Mount Kilimanjaro hikes. We offer wellness retreats, Mombasa beach escapes, and cultural immersion experiences. Every journey is crafted by experienced local guides for authentic, safe adventures.
+                    </p>
+                    <div class="about-buttons">
+                        <button class="btn-learn">Learn More</button>
+                        <a href="#gallery" class="btn-gallery">Our Gallery</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/massai mara.jpg" alt="Adventure Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Our Adventures Gallery</h2>
+            <p class="section-subtitle">Explore the breathtaking destinations we've discovered together</p>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Card 1 -->
+                <div class="gallery-card">
+                    <div class="gallery-image">
+                        <img src="images/massai mara.jpg" alt="Masai Mara National Reserve">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">Masai Mara</h3>
+                            <p class="gallery-location">National Reserve</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Card 2 -->
+                <div class="gallery-card">
+                    <div class="gallery-image">
+                        <img src="images/massai mara.jpg" alt="Mount Kilimanjaro">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">Kilimanjaro</h3>
+                            <p class="gallery-location">Tanzania</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Card 3 -->
+                <div class="gallery-card">
+                    <div class="gallery-image">
+                        <img src="images/massai mara.jpg" alt="Diani Beach">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">Diani Beach</h3>
+                            <p class="gallery-location">Mombasa Coast</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Card 4 -->
+                <div class="gallery-card">
+                    <div class="gallery-image">
+                        <img src="images/massai mara.jpg" alt="Lake Nakuru">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">Lake Nakuru</h3>
+                            <p class="gallery-location">Great Rift Valley</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-actions">
+                <a href="#" class="btn-view-all">View All Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="section join-crew">
+        <div class="container">
+            <div class="join-content">
+                <div class="join-image">
+                    <img src="images/massai mara.jpg" alt="Join our adventure crew">
+                </div>
+                <div class="join-text">
+                    <h2 class="join-title">Join the Crew</h2>
+                    <p class="join-description">
+                        Ready for your next adventure? Join our community of explorers and be the first to know about exclusive trips, early-bird discounts, and hidden gems across East Africa. Adventure awaits!
+                    </p>
+                    <div class="join-actions">
+                        <a href="#" class="btn-join-now">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adventures Section -->
+    <section id="adventures-showcase" class="section adventures-showcase">
+        <div class="container">
+            <h2 class="section-title">Our Adventures</h2>
+            <p class="section-subtitle">Discover the incredible experiences that await you across East Africa</p>
+            
+            <div class="adventures-grid">
+                <!-- Adventure Category 1 -->
+                <div class="adventure-category">
+                    <div class="adventure-icon">
+                        <img src="images/massai mara.jpg" alt="Wildlife Safari" class="adventure-image">
+                    </div>
+                    <h3 class="adventure-title">Wildlife Safaris</h3>
+                    <p class="adventure-description">Experience Africa's Big Five in their natural habitat. From Masai Mara to Serengeti, witness the great migration and incredible wildlife diversity.</p>
+                    <a href="#" class="adventure-link">Explore Safaris</a>
+                </div>
+
+                <!-- Adventure Category 2 -->
+                <div class="adventure-category">
+                    <div class="adventure-icon">
+                        <img src="images/massai mara.jpg" alt="Mountain Expedition" class="adventure-image">
+                    </div>
+                    <h3 class="adventure-title">Mountain Expeditions</h3>
+                    <p class="adventure-description">Experience Africa's Big Five in their natural habitat. From Masai Mara to Serengeti, witness the great migration and incredible wildlife diversity.</p>
+                    <a href="#" class="adventure-link">Explore Mountains</a>
+                </div>
+
+                <!-- Adventure Category 3 -->
+                <div class="adventure-category">
+                    <div class="adventure-icon">
+                        <img src="images/massai mara.jpg" alt="Coastal Escape" class="adventure-image">
+                    </div>
+                    <h3 class="adventure-title">Coastal Escapes</h3>
+                    <p class="adventure-description">Experience Africa's Big Five in their natural habitat. From Masai Mara to Serengeti, witness the great migration and incredible wildlife diversity.</p>
+                    <a href="#" class="adventure-link">Explore Coast</a>
+                </div>
+
+                <!-- Adventure Category 4 -->
+                <div class="adventure-category">
+                    <div class="adventure-icon">
+                        <img src="images/massai mara.jpg" alt="Cultural Journey" class="adventure-image">
+                    </div>
+                    <h3 class="adventure-title">Cultural Journeys</h3>
+                    <p class="adventure-description">Experience Africa's Big Five in their natural habitat. From Masai Mara to Serengeti, witness the great migration and incredible wildlife diversity.</p>
+                    <a href="#" class="adventure-link">Explore Culture</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section travel-blog">
+        <div class="container">
+            <h2 class="section-title">Travel Blog</h2>
+            <p class="section-subtitle">Stories and insights from our latest adventures across East Africa</p>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/massai mara.jpg" alt="Masai Mara Wildlife">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">March 15, 2025</span>
+                            <span class="blog-category">Wildlife</span>
+                        </div>
+                        <h3 class="blog-title">The Great Migration: A Wildlife Spectacle</h3>
+                        <p class="blog-excerpt">Witnessing millions of wildebeest cross the Mara River is truly a once-in-a-lifetime experience that defines East African safari adventures.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/massai mara.jpg" alt="Mount Kilimanjaro">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">March 10, 2025</span>
+                            <span class="blog-category">Adventure</span>
+                        </div>
+                        <h3 class="blog-title">Conquering Kilimanjaro: Tips for Success</h3>
+                        <p class="blog-excerpt">Essential preparation tips and insights from our recent summit attempt on Africa's highest peak, including gear recommendations and training advice.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/massai mara.jpg" alt="Coastal Kenya">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">March 5, 2025</span>
+                            <span class="blog-category">Culture</span>
+                        </div>
+                        <h3 class="blog-title">Hidden Gems Along Kenya's Coast</h3>
+                        <p class="blog-excerpt">Discover pristine beaches and authentic coastal culture beyond the popular tourist destinations along Kenya's stunning Indian Ocean coastline.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="blog-actions">
+                <a href="#" class="btn-view-blog">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Section (horizontal, not in navigation) -->
+    <section class="section revirew-section">
+        <div class="container">
+            <h2 class="section-title">Reviews</h2>
+            <p class="section-subtitle">What travelers say about their journeys</p>
+        </div>
+        <div class="revirew-strip-wrapper">
+            <div class="revirew-strip" aria-label="Traveler reviews carousel">
+                <div class="revirew-card">
+                    <p class="revirew-text">“Unforgettable safari experience – saw the Big Five in just two days.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">Sarah J.</span>
+                        <span class="revirew-loc">UK</span>
+                    </div>
+                </div>
+                <div class="revirew-card">
+                    <p class="revirew-text">“Kilimanjaro summit sunrise was magical. Team support was flawless.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">Michael C.</span>
+                        <span class="revirew-loc">Canada</span>
+                    </div>
+                </div>
+                <div class="revirew-card">
+                    <p class="revirew-text">“Loved the coastal extension – crystal beaches and vibrant culture.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">Emma T.</span>
+                        <span class="revirew-loc">Australia</span>
+                    </div>
+                </div>
+                <div class="revirew-card">
+                    <p class="revirew-text">“Cultural village visit felt authentic and respectful. Highly recommend.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">James R.</span>
+                        <span class="revirew-loc">Spain</span>
+                    </div>
+                </div>
+                <div class="revirew-card">
+                    <p class="revirew-text">“Logistics were seamless from airport pickup to farewell dinner.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">Lisa A.</span>
+                        <span class="revirew-loc">Germany</span>
+                    </div>
+                </div>
+                <div class="revirew-card">
+                    <p class="revirew-text">“Birding around Lake Nakuru exceeded expectations – stunning diversity.”</p>
+                    <div class="revirew-meta">
+                        <span class="revirew-name">David K.</span>
+                        <span class="revirew-loc">S. Korea</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="Nomad Crew Logo" class="footer-logo-img">
+                            <span class="footer-brand">Nomad Crew</span>
+                        </div>
+                        <p class="footer-tagline">Discover East Africa's hidden gems with unforgettable adventures and authentic experiences.</p>
+                    </div>
+                    
+                    <div class="footer-center">
+                        <div class="quick-links">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#adventures">Adventures</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-right">
+                        <div class="footer-newsletter">
+                            <h3 class="newsletter-title">Subscribe to Our Newsletter</h3>
+                            <p class="newsletter-desc">Get the latest adventure updates delivered to your inbox</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Enter your email" class="newsletter-input">
+                                <button type="submit" class="newsletter-btn">Subscribe</button>
+                            </form>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#" aria-label="Facebook">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Instagram">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Twitter">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="YouTube">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Nomad Crew Adventures. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
