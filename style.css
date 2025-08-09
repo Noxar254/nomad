@@ -1251,9 +1251,24 @@ body {
         font-size: 0.95rem;
     }
 
+    .upcoming-tours {
+        padding: 60px 0;
+    }
+
     .upcoming-tours .container {
         padding: 0;
         max-width: 100%;
+        margin: 0;
+    }
+
+    .upcoming-tours .section-title {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .upcoming-tours .section-subtitle {
+        padding: 0 15px;
+        margin-bottom: 30px;
     }
 
     .tours-grid {
@@ -1664,9 +1679,24 @@ body {
         font-size: 0.9rem;
     }
 
+    .upcoming-tours {
+        padding: 50px 0;
+    }
+
     .upcoming-tours .container {
         padding: 0;
         max-width: 100%;
+        margin: 0;
+    }
+
+    .upcoming-tours .section-title {
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .upcoming-tours .section-subtitle {
+        padding: 0 10px;
+        margin-bottom: 25px;
     }
 
     .tours-grid {
