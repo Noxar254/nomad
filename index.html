@@ -56,22 +56,22 @@
                 <!-- Tour Card 1 -->
                 <div class="tour-card">
                     <div class="tour-image">
-                        <img src="images/massai mara.jpg" alt="Masai Mara Safari">
+                        <img src="images/namanga RTRIP.png" alt="Namanga Road Trip">
                         <div class="tour-date">
-                            <span class="month">Mar</span>
-                            <span class="day">15</span>
+                            <span class="month">Aug</span>
+                            <span class="day">30</span>
                         </div>
                     </div>
                     <div class="tour-content">
-                        <h3 class="tour-title">Masai Mara Safari Adventure</h3>
-                        <p class="tour-description">Experience the great migration and witness Africa's Big Five in their natural habitat. A 5-day journey through Kenya's most famous national reserve.</p>
+                        <h3 class="tour-title">Namanga Road Trip</h3>
+                        <p class="tour-description">Explore the scenic border town between Kenya and Tanzania with stunning landscapes and local culture.</p>
                         <div class="tour-details">
-                            <span class="duration">5 Days</span>
-                            <span class="price">KSH 120,000</span>
+                            <span class="duration">1 Day</span>
+                            <span class="price">KSH 3,500</span>
                         </div>
                         <div class="tour-buttons">
                             <button class="btn-view">View Details</button>
-                            <button class="btn-register">Register</button>
+                            <button class="btn-register" data-tour="Namanga Road Trip" data-price="KSH 3,500">Register</button>
                         </div>
                     </div>
                 </div>
@@ -87,14 +87,14 @@
                     </div>
                     <div class="tour-content">
                         <h3 class="tour-title">Mount Kilimanjaro Trek</h3>
-                        <p class="tour-description">Conquer Africa's highest peak on this challenging 7-day trek. Experience diverse ecosystems from rainforest to alpine desert.</p>
+                        <p class="tour-description">Conquer Africa's highest peak on this challenging 7-day trek through diverse ecosystems.</p>
                         <div class="tour-details">
                             <span class="duration">7 Days</span>
                             <span class="price">KSH 210,000</span>
                         </div>
                         <div class="tour-buttons">
                             <button class="btn-view">View Details</button>
-                            <button class="btn-register">Register</button>
+                            <button class="btn-register" data-tour="Mount Kilimanjaro Trek" data-price="KSH 210,000">Register</button>
                         </div>
                     </div>
                 </div>
@@ -110,14 +110,14 @@
                     </div>
                     <div class="tour-content">
                         <h3 class="tour-title">Coastal Road Trip Experience</h3>
-                        <p class="tour-description">Drive along the stunning East African coastline. Visit pristine beaches, historic towns, and enjoy fresh seafood in this 4-day adventure.</p>
+                        <p class="tour-description">Drive along the stunning East African coastline visiting pristine beaches and historic towns.</p>
                         <div class="tour-details">
                             <span class="duration">4 Days</span>
                             <span class="price">KSH 85,000</span>
                         </div>
                         <div class="tour-buttons">
                             <button class="btn-view">View Details</button>
-                            <button class="btn-register">Register</button>
+                            <button class="btn-register" data-tour="Coastal Road Trip Experience" data-price="KSH 85,000">Register</button>
                         </div>
                     </div>
                 </div>
@@ -458,6 +458,80 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Registration Modal -->
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTourTitle">Register for Tour</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="registrationForm" class="registration-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="emergencyContact">Emergency Contact Name *</label>
+                        <input type="text" id="emergencyContact" name="emergencyContact" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="emergencyPhone">Emergency Contact Phone *</label>
+                        <input type="tel" id="emergencyPhone" name="emergencyPhone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="participants">Number of Participants</label>
+                        <select id="participants" name="participants">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5+">5+ People</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dietary">Dietary Requirements/Allergies</label>
+                        <textarea id="dietary" name="dietary" rows="3" placeholder="Please specify any dietary requirements or allergies"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="specialRequests">Special Requests/Medical Conditions</label>
+                        <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Any special requests or medical conditions we should know about"></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and conditions and understand the cancellation policy *</label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter for future adventure updates</label>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="button" class="btn-cancel">Cancel</button>
+                        <button type="submit" class="btn-submit">Complete Registration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script></script>
 </body>
 </html>
