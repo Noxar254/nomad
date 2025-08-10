@@ -2690,15 +2690,17 @@ body {
 }
 
 .contact-form-wrapper {
-    max-width: 600px;
-    margin: 0 auto 50px auto;
+    max-width: none;
+    margin: 0 0 30px 0;
 }
 
 .contact-form {
     background: white;
     padding: 25px 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    box-shadow: none;
+    max-width: none;
+    width: 100%;
 }
 
 .form-row {
@@ -2758,12 +2760,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px 30px;
+    max-width: none;
+    margin: 0;
+    padding: 20px 40px;
     background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
 }
 
 .contact-details {
@@ -2841,26 +2844,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #2ECC71;
     text-decoration: none;
     transition: all 0.3s ease;
-    background: #2ECC71;
+    background: white;
+    border: 2px solid #2ECC71;
 }
 
 .social-icon.facebook {
-    background: #2ECC71;
+    background: white;
+    color: #2ECC71;
 }
 
 .social-icon.instagram {
-    background: #2ECC71;
+    background: white;
+    color: #2ECC71;
 }
 
 .social-icon.twitter {
-    background: #2ECC71;
+    background: white;
+    color: #2ECC71;
 }
 
 .social-icon.whatsapp {
-    background: #2ECC71;
+    background: white;
+    color: #2ECC71;
 }
 
 .social-icon:hover {
