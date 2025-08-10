@@ -2682,3 +2682,242 @@ body {
         height: 24px;
     }
 }
+
+/* Contact Us Section */
+.contact-us {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact-form-wrapper {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.contact-form {
+    background: white;
+    padding: 25px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2ECC71;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-send-message {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #2ECC71, #27AE60);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-send-message:hover {
+    background: linear-gradient(135deg, #27AE60, #229954);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(46, 204, 113, 0.3);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-details {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact-icon.phone {
+    background: #2ECC71;
+}
+
+.contact-icon.email {
+    background: #3498DB;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    color: #888;
+    font-weight: 500;
+}
+
+.contact-value {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-value:hover {
+    color: #2ECC71;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-label {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: #2ECC71;
+}
+
+.social-icon.facebook {
+    background: #2ECC71;
+}
+
+.social-icon.instagram {
+    background: #2ECC71;
+}
+
+.social-icon.twitter {
+    background: #2ECC71;
+}
+
+.social-icon.whatsapp {
+    background: #2ECC71;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Mobile Responsiveness */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 40px 0;
+    }
+    
+    .contact-form-wrapper {
+        margin: 0 0 50px 0;
+    }
+    
+    .contact-form {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        padding: 20px 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 25px;
+        width: 100vw;
+        margin: 0;
+        margin-left: calc(-50vw + 50%);
+        padding: 20px 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .contact-details {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .contact-item {
+        justify-content: center;
+    }
+    
+    .social-media {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+}
